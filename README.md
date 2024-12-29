@@ -83,7 +83,7 @@ Method: DELETE
 
 ### **Step 2: Configure the Database**
 
-- Update the `application.properties` file to connect to your **MySQL** database.
+- Update the `application.properties` file to connect to your **MySQL** or **H2** database.
 - Example configuration:
   ```properties
   spring.application.name=nimapmt
