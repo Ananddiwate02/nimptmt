@@ -51,7 +51,7 @@ Method: DELETE
 
 # Products Endpoints:
 
-POST - create a new product
+1.POST - create a new product
 URL: http://localhost:8080/api/products
 Method: POST
 
@@ -60,8 +60,8 @@ URL: http://localhost:8080/api/products
 Method: GET
 
 3.GET product by Id
-URL: http://localhost:8080/api/products/1
-Method: Get
+URL: http://localhost:8080/api/products/1
+Method: Get
 
 
 4.PUT - update product by id
