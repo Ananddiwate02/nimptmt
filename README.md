@@ -86,6 +86,22 @@ Method: DELETE
 - Update the `application.properties` file to connect to your **MySQL** database.
 - Example configuration:
   ```properties
+  spring.application.name=nimapmt
+   H2 Database Configuration
+  spring.datasource.username=sa
+  spring.datasource.password=password
+  spring.datasource.driverClassName=org.h2.Driver
+  # Hibernate Configuration
+  spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+  spring.jpa.hibernate.ddl-auto=update
+  spring.jpa.show-sql=true
+
+  # Enable H2 Console (optional)
+  spring.h2.console.enabled=true
+  spring.h2.console.path=/h2-console
+  spring.datasource.url=jdbc:h2:mem:testdb
+  logging.level.org.springframework=DEBUG
+
   spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
   spring.datasource.username=your_username
   spring.datasource.password=your_password
