@@ -26,27 +26,48 @@ Use Postman to test the following endpoints for Categories and Products.
 
 # Categories Endpoints:
 
-
-URL: http://localhost:8080/api/categories/1
+1.POST - create a new category
+URL: http://localhost:8080/api/categories
 Method: POST
 
+2.GET all the categories
+URL: http://localhost:8080/api/categories
+Method: GET
 
+
+3.GET all the categories
 URL: http://localhost:8080/api/categories/1
 Method: GET
 
 
+4 . PUT - update category by id
+URL: http://localhost:8080/api/categories/1
+Method:PUT
+
+5 . Delete category By ID
 URL: http://localhost:8080/api/categories/1
 Method: DELETE
 
 
 # Products Endpoints:
+
+POST - create a new product
 URL: http://localhost:8080/api/products
 Method: POST
 
-
-URL: http://localhost:8080/api/products/1
+2.GET all the products
+URL: http://localhost:8080/api/products
 Method: GET
 
+3.GET product by Id
+URL: http://localhost:8080/api/products/1
+Method: Get
 
+
+4.PUT - update product by id
+URL: http://localhost:8080/api/products/1
+Method: PUT
+
+5.DELETE - Delete product by id
 URL: http://localhost:8080/api/products/1
 Method: DELETE
